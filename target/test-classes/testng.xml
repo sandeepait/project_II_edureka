@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="emailInput" value="invalidEmail" />
+	<test thread-count="5" name="invalid Email Test">
+		<classes>
+			<class name="test.LoginTest"></class>
+			<class name="test.UrlAndTitleTest"></class>
+			<class name="test.NavigationTests"></class>
+			<class name="test.MobileTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
